@@ -1,0 +1,21 @@
+
+CXX=g++                                                                         
+CC=gcc                                                                          
+                                                                                
+CFLAGS_FREETYPE="-I /usr/include/freetype2"                                     
+LIBS_FREETYPE=-lfreetype                                                        
+                                                                                
+CFLAGS_ICU=""                                                                   
+LIBS_ICU="-licui18n -licuuc"                                                    
+                                                                                
+CFLAGS_JPEG=""                                                                  
+LIBS_JPEG=-ljpeg                                                                
+#                                                                               
+# valid values are X86_FAMILY, ARM64 and ARMEL                                  
+#                                                                               
+ARCH_CPU=X86_FAMILY    
+
+CFLAGS_EXTRA=""
+CXXFLAGS_EXTRA=""
+LIBS_EXTRA=""
+
